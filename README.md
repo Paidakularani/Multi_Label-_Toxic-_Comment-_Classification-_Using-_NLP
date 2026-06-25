@@ -10,23 +10,28 @@ Social media users often face abusive and toxic comments that discourage them fr
 - Scikit-Learn
 - Matplotlib
 - Seaborn
-
+  
 ## 🔄 Project Workflow
 
-### Data Preprocessing
+### 1. Data Preprocessing
 - Removed special characters
 - Converted text to lowercase
 - Removed stopwords
 - Applied stemming
 
-### Feature Extraction
+### 2. Feature Extraction
 - TF-IDF Vectorization
 
-### Model Building
+### 3. Model Building
 - Multinomial Naive Bayes
 - Logistic Regression
-- OneVsRest Classifier
+- OneVsRest Classifier for Multi-Label Classification
 
+### 4. Model Evaluation
+- Accuracy Score
+- Hamming Loss
+- ROC-AUC Score
+- 
 ## 📈 Key Features
 
 ✔ Text Cleaning and Preprocessing
